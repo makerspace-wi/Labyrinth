@@ -6,4 +6,5 @@ ein typisches Makerspace Team Projekt. <br>Hier vereinen sich filigrane Holzarbe
 * Aufbau der Holzkonstruktion aus Resten: Orlando E.
 * Aufbau und Programmierung der Elektronik: Michael M.
   
-<br>So war es in einer kurzen Zeitspanne möglich, ein komplettes, kleines Projekt aus Resten und Materialspenden von Mitgliedern ‚durchzuziehen‘ - eine auch bei anderen Makerspace Projekten bewährte Vorgehensweise.   Quellen: www.az-delivery.de und www.instructables.com
+<br>So war es in einer kurzen Zeitspanne möglich, ein komplettes, kleines Projekt aus Resten und Materialspenden von Mitgliedern ‚durchzuziehen‘ - eine auch bei anderen Makerspace Projekten bewährte Vorgehensweise.   
+<br><br>Quellen: www.az-delivery.de und www.instructables.com
