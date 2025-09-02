@@ -161,12 +161,15 @@ unsigned int val;
 
 // notes in the melody:
 int melody[] = {
-  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+//   NOTE_C6, NOTE_C5, NOTE_C5, NOTE_C5, NOTE_B5, 0, 0, 0  // Fanfar?
+ NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4 // orgi
+//  NOTE_C6, NOTE_G5, NOTE_G5, NOTE_A5, NOTE_G5, 0, NOTE_B5, NOTE_C6 // higher
 };
 
 // note durations: 4 = quarter note, 8 = eighth note, etc.:
 int noteDurations[] = {
-  4, 8, 8, 4, 4, 4, 4, 4
+//   1, 8, 8, 8, 1, 4, 4, 4
+ 4, 8, 8, 4, 4, 4, 4, 4
 };
 
 // FUNCTIONS ------------------------------------
@@ -361,7 +364,7 @@ void loop()
       }
       LS_prev = analogRead(LS_pin); 
 
-      if (joystick.getButton() == LOW )
+      if (digitalRead(B_pin) == LOW )
       {
             noTone(Buzzer); // Ausschalten des Tons.
       }
