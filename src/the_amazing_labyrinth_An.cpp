@@ -377,7 +377,7 @@ void loop()
       }
       LS_prev = analogRead(LS_pin); 
 
-      if (digitalRead(B_pin) == LOW )
+      if (digitalRead(B_pin) == HIGH )
       {
             if (countBoLo >= 5000 / dlyRead)
             {
@@ -419,3 +419,4 @@ void loop()
       // -------------------------
       delay (dlyRead);
 }
+
